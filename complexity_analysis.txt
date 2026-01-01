@@ -1,0 +1,32 @@
+PERDS - Algorithm Complexity Analysis
+================================================================================
+
+1. CORE DATA STRUCTURES
+--------------------------------------------------------------------------------
+EmergencyNetwork (Graph):
+  Representation: Adjacency List + HashMap
+  Space Complexity: O(V + E)
+  Operations:
+    - Add Node: O(1) average
+    - Add Edge: O(1) average
+    - Get Node: O(1) average (HashMap)
+    - Get Neighbors: O(degree(v))
+    - Check Connectivity: O(V + E) BFS
+
+PriorityQueue (Binary Heap):
+  Space Complexity: O(n)
+  Operations:
+    - Insert: O(log n)
+    - Extract-Min: O(log n)
+    - Peek: O(1)
+
+2. PATHFINDING ALGORITHMS
+--------------------------------------------------------------------------------
+Dijkstra's Algorithm:
+  Time Complexity: O((V + E) log V)
+  Space Complexity: O(V)
+
+A* Algorithm:
+  Time Complexity: O(E log V) average
+  Space Complexity: O(V)
+

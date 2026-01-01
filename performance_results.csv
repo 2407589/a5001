@@ -1,0 +1,39 @@
+Network Size,Algorithm,Time (ms),Nodes Explored,Path Length
+10,Dijkstra,2,N/A,4
+10,A*,1,N/A,4
+25,Dijkstra,0,N/A,11
+25,A*,0,N/A,11
+50,Dijkstra,0,N/A,20
+50,A*,0,N/A,20
+100,Dijkstra,0,N/A,40
+100,A*,0,N/A,40
+200,Dijkstra,1,N/A,80
+200,A*,1,N/A,80
+
+Network Size,Operation,Time (ms)
+50,Construction,0
+50,Lookup (1000x),0
+50,Connectivity Check,0
+100,Construction,0
+100,Lookup (1000x),0
+100,Connectivity Check,0
+200,Construction,1
+200,Lookup (1000x),0
+200,Connectivity Check,0
+500,Construction,2
+500,Lookup (1000x),0
+500,Connectivity Check,1
+1000,Construction,3
+1000,Lookup (1000x),0
+1000,Connectivity Check,2
+
+Incident Count,Processing Time (ms),Avg per Incident (ms)
+10,0,0.000
+50,3,0.060
+100,3,0.030
+200,1,0.005
+500,5,0.010
+
+Update Type,Count,Time (ms),Avg per Update (ns)
+Edge Weight Update,1000,0,364
+Edge Blocking,1000,0,420
